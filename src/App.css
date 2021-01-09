@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  margin-left: auto;
+  font-size: calc(12px + 2vmin);
+  padding: 15px
+}
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  color: white;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.bodyDiv{
+  text-align: center;
+  margin: auto;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background: #f6e100;
+  border: 1px solid #282c34;
+  border-radius: 10px;
+  font-weight: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  outline: none;
+  box-shadow: 1px 1px 1px #606060;
+  color: #282c34;
+  text-align: center;
+}
+button:hover {
+  background: #6a7ea5;
+  color: white;
+}
+
+.buttonS {
+  background: #6a7ea5;
+  color: white;
+  height: 35px;
+  font-size: 20px;
+}
+
+input {
+  width: 150px;
+  height: 30px;
+  margin: 0 5px 0 5px;
+  vertical-align: baseline;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 22px;
+  box-shadow: inset 1px 1px 1px #606060;
+  outline: none;
+  border-radius: 5px;
+}
+
+hr{
+  margin: 20px;
+}
+.divNon {
+  display: none;
+  text-align: center;
+  margin: auto;
+}
+
+.divYes {
+  text-align: center;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.result {
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  color: darkblue;
+}
+
+.divExample {
+  display:inline-flex;
+
+}
+.divF{
+  background-color: #282c34;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: white;
+  padding: 12px;
+  margin-bottom: 30px;
+  text-align: right;
+}
